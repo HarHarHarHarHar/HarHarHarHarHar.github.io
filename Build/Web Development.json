@@ -1,0 +1,13 @@
+{
+"companyName": "HarryH",
+"productName": "The Runner",
+"dataUrl": "Web Development.data.unityweb",
+"asmCodeUrl": "Web Development.asm.code.unityweb",
+"asmMemoryUrl": "Web Development.asm.memory.unityweb",
+"asmFrameworkUrl": "Web Development.asm.framework.unityweb",
+"TOTAL_MEMORY": 1073741824,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

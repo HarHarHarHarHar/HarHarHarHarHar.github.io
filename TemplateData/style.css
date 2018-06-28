@@ -46,17 +46,20 @@ img {
     display: flex;
     float: left;
     padding: 1px;
-    width:33%;
+    width:450px;
+    height: 230px;
 }
 .center-left {
     display: flex;
     float: left;
     padding: 1px;
-    width:33%;
+    width:450px;
+    height: 230px;
 }
 .center-right {
     display: flex;
     float: left;
     padding: 1px;
-    width:33%;
+    width:450px;
+    height: 230px;
 }

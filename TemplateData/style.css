@@ -63,3 +63,6 @@ img {
     width:450px;
     height: 230px;
 }
+.primarybutton {
+    display: block;
+}

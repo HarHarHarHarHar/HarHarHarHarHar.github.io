@@ -42,3 +42,21 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+.center {
+    display: flex;
+    float: left;
+    padding: 1px;
+    width:33%;
+}
+.center-left {
+    display: flex;
+    float: left;
+    padding: 1px;
+    width:33%;
+}
+.center-right {
+    display: flex;
+    float: left;
+    padding: 1px;
+    width:33%;
+}

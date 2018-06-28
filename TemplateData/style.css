@@ -18,10 +18,16 @@
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
 p {
     font-family: Arial;
-    font-size: 20px;    
+    font-size: 20px;
+    text-align: center;
 }
 h1{
     font-family:Arial;
+    text-align: center;
+}
+h2{
+    font-family:Arial;
+    text-align: center;
 }
 body {
     background-color: #FF8700  

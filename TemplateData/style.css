@@ -30,7 +30,8 @@ h2{
     text-align: center;
 }
 body {
-    background-color: #FF8700  
+    background-color: #424242;  
+    text-align: center;
 }
 a {
     margin-left: auto;
@@ -38,31 +39,16 @@ a {
     font-family: "Ariel";
     font-size: 20px;
 }
-img {
-    margin-left: auto;
-    margin-right: auto;
+.column {
+    display: inline-block;
+    padding: 3px;
+    background-color: #525252 ;
+    border-radius: 5px;
 }
-.center {
-    display: flex;
-    float: left;
-    padding: 1px;
-    width:450px;
-    height: 230px;
+
+.Main-Container{
+    background-color: #646464;
 }
-.center-left {
-    display: flex;
-    float: left;
-    padding: 1px;
-    width:450px;
-    height: 230px;
-}
-.center-right {
-    display: flex;
-    float: left;
-    padding: 1px;
-    width:450px;
-    height: 230px;
-}
-.primarybutton {
-    display: block;
+.Main-InsideContainer{
+    background-color: #9E9E9E;
 }

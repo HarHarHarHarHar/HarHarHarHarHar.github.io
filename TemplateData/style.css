@@ -20,24 +20,49 @@ p {
     font-family: Arial;
     font-size: 20px;
     text-align: center;
+    font-family: 'Helvetica Neue', sans-serif; 
 }
 h1{
     font-family:Arial;
     text-align: center;
-}
-h2{
-    font-family:Arial;
-    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size:40px;
 }
 body {
     background-color: #07103A;  
     text-align: center;
+    padding-top:2px;
 }
 a {
     margin-left: auto;
     margin-right: auto;
     font-family: "Ariel";
     font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #143CB2;
+    position: fixed;
+    height: 100%;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.CurrentPage {
+    background-color: #143CB2;
+    color: white;
+}
+
+li a:hover:not(.CurrentPage) {
+    background-color: #143CB2;
+    color: white;
 }
 .column {
     display: inline-flex;
@@ -49,25 +74,27 @@ a {
 .Main-Container{
     background-color: #515E91;
     text-align: center;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:15%;
+    padding-top:2px;
+    margin-right:auto;   
 }
 .Main-InsideContainer{
     background-color: #7B84AE;
+    padding-bottom:50px;
 }
 .primarybutton {
     display: inline-block;
-  border-radius: 4px;
-  background-color: #143CB2;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 300px;
-  transition: all 0.4s;
-  cursor: pointer;
-  margin: 5px;
+    border-radius: 4px;
+    background-color: rgb(25, 70, 204);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 100%;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin-right: 5px;
 }
 .primarybutton span {
     cursor: pointer;
@@ -90,6 +117,45 @@ a {
   }
   
   .primarybutton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.Currentbutton {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(32, 88, 255);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 100%;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.Currentbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+  
+  .Currentbutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
+  
+  .Currentbutton:hover span {
+    padding-right: 25px;
+  }
+  
+  .Currentbutton:hover span:after {
     opacity: 1;
     right: 0;
   }

@@ -64,8 +64,13 @@ li a:hover:not(.CurrentPage) {
     background-color: #143CB2;
     color: white;
 }
-.column {
+.column img {
     display: inline-flex;
+    padding: 3px;
+    background-color: #172457 ;
+    border-radius: 5px;
+}
+.column div{
     padding: 3px;
     background-color: #172457 ;
     border-radius: 5px;

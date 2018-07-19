@@ -56,7 +56,7 @@ li a {
 }
 
 li a.CurrentPage {
-    background-color: #FFD483;
+    background-color: #B28838;
     color: white;
 }
 
@@ -124,7 +124,7 @@ li a:hover:not(.CurrentPage) {
 .Currentbutton {
     display: inline-block;
     border-radius: 4px;
-    background-color: #BF923C;
+    background-color: #FFD483;
     border: none;
     color: #FFFFFF;
     text-align: center;

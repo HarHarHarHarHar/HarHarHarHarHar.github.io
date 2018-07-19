@@ -61,7 +61,7 @@ li a.CurrentPage {
 }
 
 li a:hover:not(.CurrentPage) {
-    background-color: #E3AD47;
+    background-color: #B28838;
     color: white;
 }
 .column {
@@ -85,7 +85,7 @@ li a:hover:not(.CurrentPage) {
 .primarybutton {
     display: inline-block;
     border-radius: 4px;
-    background-color: #BF923C;
+    background-color: #E3AD47;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -124,7 +124,7 @@ li a:hover:not(.CurrentPage) {
 .Currentbutton {
     display: inline-block;
     border-radius: 4px;
-    background-color: #FFD483;
+    background-color: #BF923C;
     border: none;
     color: #FFFFFF;
     text-align: center;
